@@ -1,0 +1,22 @@
+/*-------------- Tipos de Selectores --------------------*/
+
+/* Selector Global/Universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de Tipo/Etiqueta */
+p{
+    background-color: rgb(133, 133, 133);
+}
+
+/* Selector de Clase */
+.parrafoTest{
+    background-color: red;
+}
+
+/* Selector de ID */
+#parrafoId{
+    background-color: chartreuse;
+}
