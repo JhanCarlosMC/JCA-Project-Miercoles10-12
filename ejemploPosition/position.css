@@ -32,8 +32,9 @@
 #box4{
     background-color: yellow;
     position: fixed;
-    top: 300px;
-    left: 500px;
+
+    bottom: 20px;
+    right: 20px;
 }
 
 #box5{

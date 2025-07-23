@@ -1,0 +1,35 @@
+.container{
+    width: 1200px;
+    border: 2px solid black;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.box{
+    border: 2px solid black;
+}
+
+#block-container .box{
+    display: block;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#inline-container .box{
+    display: inline;
+    height: 50px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#flex-container{
+    display: flex;
+    
+    justify-content: flex-start; /*Ayuda a ordenar los elementos horizontalmente*/
+    align-items: flex-start; /*Ayuda a ordenar los elementos verticalmente*/
+    flex-direction: row; /*Da direccion a los elementos(FIla/Columna)*/
+    flex-wrap: wrap; /*Permite que los elementos se envuelvan a la siguiente fila*/
+    flex-flow: row wrap; /*Permite utilizar las propiedades Direction y Wrap en una sola*/
+    align-content: flex-start; /*Ayuda a ordenar las filas verticalmente/horizontalmente*/
+}
